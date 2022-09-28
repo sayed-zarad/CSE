@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .page{
     margin: 40px auto;
     /* height: 100vh; */
@@ -65,24 +69,193 @@ h3{
     /* border: 1px solid #000; */
 }
 .page .container .content div{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 
 }
 
  /* page 3 (الرساله والهداف) */
- .page .content h1{
+.page .content h1{
     color: #000;
     font-size: 60px;
     letter-spacing: 2px;
     position: relative;
- }
- .page .content h1::after{
+    margin-top: -25px;
+}
+.page .content .message{
+    margin-top:50px ;
+    font-size: 30px;
+    font-weight: bold;
+}
+.page .content h1::before{
     content: " ";
-    width: 165px;
-    height: 2px;
-    background-color: aqua;
+    width: 150px;
+    height: 4px;
+    background-color: blue;
     position: absolute;
-    top: 90px;
-    right: 200px;
- }
- 
+    left: 50%;
+    margin-left: -72px;
+    bottom: 10px;
+}
+/* end page 3 */
+/* start page 4 */
+.page .ahdaf{
+    position: absolute;
+    right: 65px;
+    margin-top: 13px;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.timeline{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: -10px;
+}
+.timeline .timline-content{
+    position: relative;
+    overflow: hidden;
+}
+.timeline .timline-content::before{
+    content: " ";
+    width: 2px;
+    height: 100%;
+    background-color:#03A9F4;
+    position: absolute;
+    left: 50%;
+    margin-left: -1px;
+    top: 0;
+    
+}
+.timeline .timline-content .header{
+    margin: 20px auto;
+    width: 200px;
+    background-color: #03A9F4;
+    position: relative;
+    z-index: 2;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    padding: 2px 5px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.timeline .timline-content .left,
+.timeline .timline-content .right{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.timeline .timline-content .left{
+    float: left;
+}
+.timeline .timline-content .left::before{
+    right: -35px;
+}
+.timeline .timline-content .right{
+    float: right;
+}
+.timeline .timline-content .right::before{
+    left:  -35px;
+}
+
+.timeline .timline-content .content-one{
+    padding: 20px;
+    background-color: white;
+    z-index: 1000;
+    position: relative;
+    background-color: #eee;
+    width: 500px;
+    margin:10px auto ;
+
+}
+.timeline .timline-content .content-one h3{
+    font-weight: bold;
+    color:  #03A9F4;
+    margin: 0 0 10px;
+    
+}
+.timeline .timline-content .content-one p{
+    color: #000;
+    text-align: right;
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.clearfix{
+    clear: both;
+}
+
+.header-c{
+    margin-top: 20px;
+    text-align: center;
+    color: #03A9F4;
+}
+
+
+.page .image2{
+    width: calc(90% / 3);
+}
+.page .image2 img{
+    width: 400px;
+    height: 50%;
+}
+.page .image1{
+    width: calc(90% / 3);
+}
+.page .image1 img{
+    width: 400px;
+    height: 350px;
+}
+/* end page 4 */
+
+/* start page 7 */
+.page .photo-two img{
+    width: 200px;
+    
+}
+.page .photo-two p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* end page 7 */
+/* start page 8 */
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.page .content .content1{
+    width: 30%;
+}
+.page .content .content2{
+    width: 30%;
+
+}
+.page .content .content3{
+    width: 100%;
+    margin-top: 40px;
+}
+.page .content .content1,
+.page .content .content2,
+.page .content .content3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+.page .content .content1 span,
+.page .content .content2 span{
+    color: #03A9F4;
+}
+/* #03A9F4 */
+/* end page 8 */
+
+/* start page 9  */
+.header-two{
+    text-align: right;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 30px;
+}
