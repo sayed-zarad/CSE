@@ -1,5 +1,5 @@
 .page{
-    margin: 20px auto;
+    margin: 40px auto;
     /* height: 100vh; */
 }
 h1{
@@ -50,7 +50,7 @@ h3{
 }
 .page .container .content{
     width: 40%;
-    line-height: 3;
+    line-height: 1.8;
     font-weight: bold;
     font-size: 20px;
     /* background-color: #eee; */
@@ -66,3 +66,17 @@ h3{
 
 }
 
+ /* page 3 (الرساله والهداف) */
+ .page .content h1{
+    color: #000;
+    font-size: 60px;
+    letter-spacing: 2px;
+    position: relative;
+ }
+ .page .content h1::after{
+content: " ";
+width: 100px;
+height: 2px;
+background-color: aqua;
+position: absolute;
+ }
