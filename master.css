@@ -2,6 +2,9 @@
     margin: 40px auto;
     /* height: 100vh; */
 }
+.hight{
+    height: 80vh;
+}
 h1{
     /* text-align: center;
     padding: 20px;
@@ -74,9 +77,12 @@ h3{
     position: relative;
  }
  .page .content h1::after{
-content: " ";
-width: 100px;
-height: 2px;
-background-color: aqua;
-position: absolute;
+    content: " ";
+    width: 165px;
+    height: 2px;
+    background-color: aqua;
+    position: absolute;
+    top: 90px;
+    right: 200px;
  }
+ 
