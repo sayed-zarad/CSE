@@ -346,7 +346,7 @@ h1.head{
     position: relative;
     margin-bottom: 50px !important;
 }
-h1::before {
+h1.head::before {
     position: absolute;
     content: "";
     left: 50%;
@@ -357,7 +357,7 @@ h1::before {
     background-color: #333;
 }
 
-h1::after {
+h1.head::after {
     position: absolute;
     content: "";
     left: 50%;
@@ -563,3 +563,43 @@ th {
     margin-top: 35px !important;
 }
 /*end 21*/
+/* page 30*/
+.father1 .par2{
+    border:  2px solid #faedcd !important;
+    padding: 8px !important;
+    color: #d4a373 !important;
+    border-radius: 4px !important;
+}
+.father1 .par3{
+    border:  2px solid #ffcdb2 !important;
+    padding: 8px !important;
+    color: #bc6c25 !important;
+    border-radius: 4px !important;
+    margin: 5px 0 20px !important;
+}
+/* end page 30*/
+/* page 31*/
+.photoes{
+    display: flex;
+}
+.photoes img{
+    width: 400px;
+    height: 300px;
+    margin-left: 15px;
+}
+/* end page 31*/
+#img{
+    display: block;
+    width:400px ;
+    height: 400px;
+}
+.myimg{
+    display: inline-block;
+    border: 2px solid blue;
+    border-radius: 8px;
+}
+.myimg2{
+    display: inline-block;
+    border: 2px solid #2a9d8f;
+    border-radius: 8px;
+}
