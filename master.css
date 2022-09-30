@@ -860,8 +860,7 @@ th {
     border: 2px solid #2a9d8f;
     border-radius: 8px;
 }
-<<<<<<< HEAD
->>>>>>> 49dadb19877ac60164e8cc248ccd06954b33b4fa
+
 
 /* start last page */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
@@ -948,7 +947,6 @@ th {
 	}
 }
 /* end last page */
-=======
 .par4,.par5{
     text-transform: uppercase;
     margin: 15px auto 80px;
@@ -986,4 +984,3 @@ th {
     transform: translateY(-50%)
 
 }
->>>>>>> b8f406867e203b10a6b134439d70b9171005c735
