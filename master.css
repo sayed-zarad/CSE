@@ -1,6 +1,86 @@
 *{
     box-sizing: border-box;
 }
+.mystyles {
+    margin: 100px;
+    position: relative;
+}
+
+.styles {
+    border: 2px solid #8ecae6;
+    padding: 5px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+
+}
+
+.style {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.styleone,
+.styletwo,
+.stylethree,
+.stylefour,
+.stylefive,
+.stylesix {
+    padding: 5px;
+    font-size: 25px !important;
+    border-style: dashed !important;
+    border: 2px solid #219ebc;
+    width: 60px;
+    height: 60px;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 50%;
+
+}
+
+.styleone {
+    position: absolute;
+    left: 82px;
+    top: 49%;
+}
+
+.styletwo {
+    position: relative;
+    left: 192px;
+    top: 311px;
+}
+
+.stylethree {
+    position: relative;
+    left: -11px;
+    top: 266px;
+
+}
+
+.stylefour {
+    position: relative;
+    top: 311px;
+    left: -25px;
+}
+
+.stylefive {
+    position: relative;
+    left: 215px;
+    top: 244px;
+}
+
+.stylesix {
+    position: relative;
+    left: 94px;
+    top: 275px;
+}
 
 .page{
     margin: 40px auto;
