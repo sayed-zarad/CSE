@@ -500,10 +500,8 @@ h3{
     font-weight: bold;
     font-size: 30px;
 }
-<<<<<<< HEAD
 
 /* end page 9  */
-=======
 /* strat page ten*/
 .txt {
     display: flex;
@@ -862,4 +860,40 @@ th {
     border: 2px solid #2a9d8f;
     border-radius: 8px;
 }
->>>>>>> 49dadb19877ac60164e8cc248ccd06954b33b4fa
+.par4,.par5{
+    text-transform: uppercase;
+    margin: 15px auto 80px;
+    border: 2px solid #4e6096;
+    padding: 10px 20px;
+    font-size: 30px;
+    width: fit-content;
+    position: relative;
+    z-index: 1;
+    color: #03A9F4;
+}
+.par4{
+    margin-bottom: 15px !important;
+}
+.par4::before,.par5::before{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: #03A9F4;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: -30px;
+    transform: translateY(-50%);
+}
+.par4::after,.par5::after{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: #03A9F4;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    right: -30px;
+    transform: translateY(-50%)
+
+}
