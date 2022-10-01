@@ -7,9 +7,10 @@
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-evenly;
+    border: 2px dashed #03A9F4;
 }
 .mian-content{
-    border: 2px dashed #03A9F4;
+    /* border: 2px dashed #03A9F4; */
     width: 500px;
     height: 500px;
     text-align: center;
@@ -89,24 +90,33 @@
     left: 95px;
     top: 49%;
 }
-
+.styleone i{
+    margin-left: 0px;
+}
 .styletwo {
     position: relative;
     left: 198px;
     top: 327px;
 }
-
+.styletwo i{
+    margin-left: 0px;
+}
 .stylethree {
     position: relative;
     left: -11px;
     top: 266px;
 
 }
-
+.stylethree i{
+    margin-left: 0px;
+}
 .stylefour {
     position: relative;
     top: 311px;
     left: -25px;
+}
+.stylefour i{
+    margin-left: 0px;
 }
 
 .stylefive {
@@ -114,11 +124,16 @@
     left: 207px;
     top: 256px;
 }
-
+.stylefive i{
+    margin-left: 0px;
+}
 .stylesix {
     position: relative;
     left: 94px;
     top: 275px;
+}
+.stylesix i{
+    margin-left: 0px;
 }
 
 .page{
