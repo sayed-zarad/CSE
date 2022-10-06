@@ -99,6 +99,7 @@
     align-items: center !important;
     justify-content: center !important;
     border-radius: 50%;
+    z-index: 3;
 
 }
 .heading{
@@ -317,7 +318,7 @@ h3{
 }
 .timeline .timline-content .header{
     margin: 20px auto;
-    width: 200px;
+    width: 25;
     background-color: #03A9F4;
     position: relative;
     z-index: 2;
