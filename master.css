@@ -32,6 +32,22 @@
     justify-content: center;
     border-radius: 50%;
 }
+.main-header .image{
+    overflow: hidden;
+}
+.main-header .image .imageone{
+    float: right;
+    
+}
+.main-header .image .imageone,
+.main-header .image .imagetwo{
+    margin: 20px;
+}
+.main-header .image img{
+    width: 150px;
+    height: 150px;
+
+}
 .main-head{
     color: #03A9F4;
     position: relative;
@@ -1179,7 +1195,7 @@ th {
 
 }
 /* ****************** */
-.main{
+.mainnn{
     width: 600px;
     height: 400px;
     background-color: #eee;
@@ -1188,31 +1204,31 @@ th {
     font-weight: bold;
     
 }
-.main .contenttt{
+.mainnn .contenttt{
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
 }
-.main h1{
+.mainnn h1{
 width: 100%;
     color: #0096c7;
 }
-.main p {
+.mainnn p {
     width: 100%;
     text-align: center;
     color: #777;
     font-weight: bold;
     font-size: 30px;
 }
-.one{
+.oneee{
     width: 600px;
     height: 400px;
     background-color: #0096c7;
     position: absolute;
     transform: rotate(-5deg);
 }
-.two{
+.twooo{
     width: 600px;
     height: 400px;
     background-color: red;
