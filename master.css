@@ -1178,15 +1178,45 @@ th {
     transform: translateY(-50%)
 
 }
-.myfinish{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid #219ebc;
-    padding: 10px;
-    color: #0077b6;
-    font-size: 30px;
+/* ****************** */
+.main{
     width: 600px;
-    height: 200px;
-    box-shadow: 60px -16px #0077b6;
+    height: 400px;
+    background-color: #eee;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.main .contenttt{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.main h1{
+width: 100%;
+    color: #0096c7;
+}
+.main p {
+    width: 100%;
+    text-align: center;
+    color: #777;
+    font-weight: bold;
+    font-size: 30px;
+}
+.one{
+    width: 600px;
+    height: 400px;
+    background-color: #0096c7;
+    position: absolute;
+    transform: rotate(-5deg);
+}
+.two{
+    width: 600px;
+    height: 400px;
+    background-color: red;
+    position: absolute;
+    transform: rotate(5deg);
+
 }
