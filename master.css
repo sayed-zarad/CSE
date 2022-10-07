@@ -664,6 +664,12 @@ h3{
     font-weight: bold;
     font-size: 30px;
 }
+.photo-three{
+    width: 100%;
+}
+.photo-three img{
+    width: 100%;
+}
 
 /* end page 9  */
 /* strat page ten*/
