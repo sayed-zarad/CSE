@@ -228,6 +228,7 @@ h3{
     flex-direction: row;
     justify-content: space-evenly;
 }
+
 .page .container .photo{
     width: 40%;
     
@@ -278,7 +279,42 @@ h3{
     background-color: #eee;
     color: #90e0ef;
 }
+@media (max-width: 768px) {
+    .page .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hight{
+        height: auto;
+    }
+    .page .container .photo{
+        width: 90%;
+        height: 50%;
+    }
+    .page .container .photo img{
+        
+        height: 400px;
+        
+    }
+    .page .container .content{
+        width: 100%;
+    }
+    h1{
+        font-size: 50px;
+    }
+}
+@media (min-width: 768px) {
 
+}
+/* medium */
+@media (min-width: 992px) {
+ 
+}
+/* large */
+@media (min-width: 1200px) {
+ 
+}
  /* page 3 (الرساله والهداف) */
 .page .content h1{
     color: #000;
