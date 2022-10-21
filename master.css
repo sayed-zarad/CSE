@@ -991,9 +991,28 @@ h1.head::after
 .text4 {
     position: relative;
     display: flex;
-    justify-content: end;
-    margin-right: 35px;
+    justify-content:center;
+    align-items: center;
+    /* margin-right: 35px; */
     font-size: 25px;
+}
+@media (max-width:767px) {
+    .text4{
+        font-size: 18px !important;
+        text-align: right;
+    }
+    .text4::after{
+        display: none;
+    }
+    .im2{
+        height: 300px !important;
+    }
+    table tr{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
 }
 
 .text4::after {
