@@ -331,6 +331,12 @@ h3{
     .page .content .message{
         text-align: center;
     }
+    .main-header .image .imageone{
+        display: none;
+    }
+    .main-header .image{
+        text-align: center;
+    }
 }
 @media (min-width: 768px) {
 
@@ -1258,6 +1264,15 @@ th {
 @media (max-width: 768px) {
     h3{
         font-size: 25px !important;
+    }
+    .timeline .timline-content .content-one{
+        width: 90%;
+    }
+    .remove{
+        display: none;
+    }
+    .page .container .content{
+        text-align: center;
     }
 }
 
