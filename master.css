@@ -78,10 +78,14 @@ html, body {
     .main-head,.main-p{
         position: relative;
         top: 60px;
+        font-size: 30px !important;
         /* font-size: 30px  !important;
         padding: 5px !important; */
-
     }
+    .main-head::after{
+        display: none;
+    }
+    
     
 }
 .main-p{
@@ -1329,6 +1333,12 @@ width: 100%;
         position: relative;
         top: 50%;
         left: -23%;
+    }
+}    
+@media(max-width:767px) {
+    .remove{
+        display: none ;
+
     }
     
 }
