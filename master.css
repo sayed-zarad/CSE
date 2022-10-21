@@ -13,6 +13,12 @@ html, body {
     justify-content: space-evenly;
     position: relative;
 }
+@media (max-width:767px) {
+    .main-page{
+        flex-direction: column;
+    }
+    
+}
 .main-page::before{
     position: absolute;
     content: "";
@@ -68,6 +74,20 @@ html, body {
     background-color: #03A9F4;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
+}
+@media (max-width:767px) {
+    .main-head,.main-p{
+        position: relative;
+        top: 60px;
+        font-size: 30px !important;
+        /* font-size: 30px  !important;
+        padding: 5px !important; */
+    }
+    .main-head::after{
+        display: none;
+    }
+    
+    
 }
 .main-p{
     margin-top: 25px;
@@ -837,6 +857,10 @@ h3{
     height: 200px;
     max-width: 100%;
 }
+@media (max-width:767px) {
+
+    
+}
 h1.head,
 h2.head{
     position: relative;
@@ -968,9 +992,28 @@ h1.head::after
 .text4 {
     position: relative;
     display: flex;
-    justify-content: end;
-    margin-right: 35px;
+    justify-content:center;
+    align-items: center;
+    /* margin-right: 35px; */
     font-size: 25px;
+}
+@media (max-width:767px) {
+    .text4{
+        font-size: 18px !important;
+        text-align: right;
+    }
+    .text4::after{
+        display: none;
+    }
+    .im2{
+        height: 300px !important;
+    }
+    table tr{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
 }
 
 .text4::after {
@@ -1093,10 +1136,22 @@ th {
 .photoes{
     display: flex;
 }
+@media (max-width:767px) {
+    .photoes{
+        flex-direction: column;
+       
+    }   
+}
 .photoes img{
     width: 400px;
     height: 300px;
     margin-left: 15px;
+}
+@media (max-width:767px) {
+    .photoes img{
+        margin-bottom: 8px;
+    }
+    
 }
 /* end page 31*/
 #img{
@@ -1285,12 +1340,4 @@ width: 100%;
     position: absolute;
     transform: rotate(5deg);
 
-}
-@media (max-width: 768px){
-    .page .container .content {
-        text-align: center;
-    }
-    .timeline .timline-content .content-one{
-        width: 90%;
-    }
 }
