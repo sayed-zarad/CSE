@@ -4,6 +4,7 @@
 html, body {
     overflow-x: hidden;
 }
+
 .main-page{
     height: 100vh;
     display: flex;
@@ -1284,4 +1285,12 @@ width: 100%;
     position: absolute;
     transform: rotate(5deg);
 
+}
+@media (max-width: 768px){
+    .page .container .content {
+        text-align: center;
+    }
+    .timeline .timline-content .content-one{
+        width: 90%;
+    }
 }
