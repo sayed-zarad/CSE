@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+html, body {
+    overflow-x: hidden;
+}
 .main-page{
     height: 100vh;
     display: flex;
@@ -23,7 +26,7 @@
 }
 .mian-content{
     /* border: 2px dashed #03A9F4; */
-    width: 500px;
+    /* width: 500px; */
     height: 500px;
     text-align: center;
     display: flex;
@@ -191,6 +194,7 @@
 .page{
     margin: 40px auto;
     /* height: 100vh; */
+    overflow: hidden;
 }
 .hight{
     height: 80vh;
