@@ -1274,6 +1274,9 @@ th {
     .page .container .content{
         text-align: center;
     }
+    .contain-page img{
+        width: 98%;
+    }
 }
 
 /* end last page */
